@@ -5,7 +5,7 @@ Sistema de esteganografia LSB em imagens (PNG, WebP, GIF, BMP, TIFF).
 ## Formato e compatibilidade
 
 - **Novo formato (v1)**: Payload com magic bytes `STEG` para evitar falsos positivos em imagens limpas.
-- **Imagens antigas**: Use `--legacy` (CLI) ou marque "Tentar decodificar imagens antigas" (web) para decodificar imagens codificadas antes do magic bytes. *Risco de falsos positivos.*
+- **Imagens antigas**: Use `--legacy` (CLI) ou marque "Tentar decodificar imagens antigas" (web) para decodificar imagens codificadas antes do magic bytes. _Risco de falsos positivos._
 
 ## Setup
 
@@ -98,6 +98,7 @@ uvicorn steg_system.web:app --reload --port 8011
 Acesse: http://127.0.0.1:8011
 
 **Recursos da interface web:**
+
 - Indicador de capacidade ao selecionar imagem
 - Validação prévia (mensagem vs capacidade)
 - Preview da imagem e drag & drop
