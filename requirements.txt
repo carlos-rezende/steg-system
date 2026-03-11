@@ -1,0 +1,6 @@
+pillow
+pycryptodome
+fastapi
+uvicorn[standard]
+python-multipart
+pytest
