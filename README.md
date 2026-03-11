@@ -96,6 +96,7 @@ uvicorn steg_system.web:app --reload --port 8011
 ```
 
 Acesse: http://127.0.0.1:8011
+Teste em produção agora : https://steg-system.onrender.com/
 
 **Recursos da interface web:**
 
