@@ -2,6 +2,8 @@
 
 Sistema de esteganografia LSB em imagens (PNG, WebP, GIF, BMP, TIFF).
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://steg-system.onrender.com/)
+
 ## Formato e compatibilidade
 
 - **Novo formato (v1)**: Payload com magic bytes `STEG` para evitar falsos positivos em imagens limpas.
